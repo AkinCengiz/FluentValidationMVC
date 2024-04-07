@@ -1,1 +1,6 @@
-# FluentVlidationMVC
+# FluentValidationMVC
+
+* EntityFramework
+* FluentValidation
+* MVC
+* WebAPI
