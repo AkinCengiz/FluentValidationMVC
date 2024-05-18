@@ -98,7 +98,7 @@ namespace FluentVlidationMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Email,Age")] Customer customer)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Email,Age,BirthDay")] Customer customer)
         {
             if (id != customer.Id)
             {
